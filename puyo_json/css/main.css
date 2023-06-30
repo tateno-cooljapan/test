@@ -1,0 +1,65 @@
+.header{
+  background-color: gray;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 5%;
+}
+body{
+  background-color: #222;
+}
+.logo{
+  position: absolute;
+  left: 1%;
+  top: 0%;
+  height: 100%;
+  width: auto;
+}
+.title{
+  padding-left: 5%;
+  color: white;
+  font-size: 210%;
+  font-weight: bold;
+}
+.buttons{
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  width: 15%;
+}
+.button{
+  width: 100%;
+}
+.game_lists{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  width: 80%;
+  height: 95%;
+  padding-left: 5%;
+}
+.datas{
+  position: absolute;
+  background-color: #000;
+  top: 5%;
+  left: 15%;
+  width: 85%;
+  color: white;
+  /* height: 95%; */
+  /* padding-left: 5%; */
+}
+a{
+  display:block;
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+  border:2px solid;
+  background-color: #555;
+  color: white;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+}
+.comment{
+  border: 3px solid gray;
+}

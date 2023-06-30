@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" src="https://ppk.clubkart.com/puyo/puyo_json/img/logo.png" alt="">
+      <div class="title">ぷよぷよスタッツ一覧</div>
+    </div>
+    <div class="buttons">
+      <!-- <input class="button button0" type="button" name="" value="ゲームデータ入力"> -->
+      <!-- <input class="button button1" type="button" name="" value="選手情報選択"> -->
+      <!-- <input class="button button2" type="button" name="" value="スタッツ表示"> -->
+      <!-- <input class="button button3" type="button" name="" value="スタッツデータ出力"> -->
+      <a id="download" target="_blank">JSON出力</a>
+      <a id="download_csv" target="_blank">CSV出力</a>
+      <textarea id="content" cols="40" rows="5" style="display:none;"></textarea>
+      <textarea id="content_csv" cols="40" rows="5" style="display:none;"></textarea>
+      <!-- <textarea class="comment" name="" rows="11" cols="37">
+ⅠJSON出力,CSV出力ボタンを押してファイルをダウンロード
+Ⅱダウンロードしたファイルにそれぞれの拡張子（.csv/.json）を付ける
+
+【CSVの場合】
+①一旦メモ帳で開く
+②名前を付けて保存→全てのファイル形式で文字コードをUTF-8→ANSIに変更して保存
+③エクセルから開くと正常に開けます
+      </textarea> -->
+    </div>
+    <div class="game_lists"></div>
+    <div class="player_list">
+      <th></th>
+    </div>
+    <div class="datas">
+      <!-- <div>
+        <textarea id="result" style="margin: 0px; width: 1094px; height: 662px;"></textarea>
+      </div> -->
+      <table class="player_data">
+          <!-- <button id="get-json"></button> -->
+      </table>
+
+    </div>
+  </body>
+</html>
+<script src="./js/change_btns.js"></script>
+<script src="./js/game_name.js"></script>
+<script src="./js/game_list.js"></script>
+<script src="./js/player_data.js"></script>
+<script src="./js/pre_list.js"></script>
+<script src="./js/battle_all_data.js"></script>
+<script>
+import cors from 'cors';
+app.use(cors());
+import cors from 'cors';
+app.use(cors());
+
+</script>
